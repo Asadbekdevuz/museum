@@ -1,0 +1,159 @@
+.hero{
+  background-color: #030303;
+  padding-top: 32px;
+  padding-bottom: 60px;
+}
+.hero__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__left{
+  max-width: 600px;  
+}
+.hero__left-title{
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 13px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-bottom: 25px;
+}
+.hero__left-text{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  padding-bottom: 75px;
+}
+.discover-btn{
+  max-width: 360px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  padding: 20px 64px;
+  background: #710707;
+  border-radius: 10px;
+}
+
+.hero__right{
+  max-width: 1000px;
+  max-height: 750px;
+}
+
+.image{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+@media only screen and (max-width:1024px){
+  
+  .hero__left{
+    max-width: 396px;  
+  }
+
+  .hero__left-title{
+    font-size: 50px;
+    line-height: 70px;
+    }
+  .hero__left-text{
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    padding-bottom: 50px;
+    }
+  .discover-btn{
+    max-width: 360px;
+    padding: 20px 45px;
+    line-height: 26px;
+
+
+
+  }
+  .hero__right{
+    max-width: 700px;
+    max-height: 525px;
+    }
+    .image{
+      max-width: 100%;
+      max-height: 100%;
+    }
+    
+}
+@media only screen and (max-width:768px){
+  .hero__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .hero__left{
+    max-width: 328px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .hero__left-title{
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+  }
+  .hero__left-text{
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 2px;
+  }
+  .discover-btn{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:420px){
+  .hero__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .hero__left{
+    max-width: 276px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .hero__left-title{
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+  }
+  .hero__left-text{
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .discover-btn{
+    display: none;
+  }
+  .hero__right{
+    max-width: 380px;
+    max-height: 285px;
+    }
+    .image{
+      max-width: 100%;
+      max-height: 100%;
+    }
+    
+}
